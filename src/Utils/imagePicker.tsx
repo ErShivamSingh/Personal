@@ -17,7 +17,7 @@ export const pick = async (optionType: any) => {
         skipBackup: true,
         path: 'images',
       },
-    //   videoQuality: 'medium',
+      videoQuality: 'medium',
       saveToPhotos: true,
     };
   
