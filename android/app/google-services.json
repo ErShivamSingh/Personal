@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323697488762",
+    "project_id": "demotest-faf93",
+    "storage_bucket": "demotest-faf93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323697488762:android:3b026922b5b39826a7dcc3",
+        "android_client_info": {
+          "package_name": "com.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323697488762-fgdrrumi57ks55l7cipmgavpp1qcg6a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOGVlZiNzF9m73nzqX1E5JPGxj4IWFcxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323697488762-fgdrrumi57ks55l7cipmgavpp1qcg6a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
