@@ -10,7 +10,9 @@ import React, {useEffect, useState} from 'react';
 import PushNotification from 'react-native-push-notification';
 
 import {createChannels} from '../../Utils/LocalPushNotifications';
+import {useNavigation} from '@react-navigation/native';
 const PushNoti = () => {
+  const navigation = useNavigation();
   const [data, setData] = useState([
     {name: 'shivam1', age: 24, contact: '1314253675'},
     {name: 'shivam2', age: 23, contact: '1314253675'},
@@ -53,7 +55,16 @@ const PushNoti = () => {
   };
   return (
     <View style={styles.container}>
-      <FlatList data={data} renderItem={renderItem} />
+      <View style={{height: Dimensions.get('screen').height * 0.8}}>
+        <FlatList data={data} renderItem={renderItem} />
+      </View>
+      <TouchableOpacity
+        style={{padding: 10, backgroundColor: '#000', borderRadius: 10}}
+        onPress={() => {
+          navigation.navigate('Firebase');
+        }}>
+        <Text style={{color: '#c0c0c0'}}>NAVIGATE TO FIREBASE</Text>
+      </TouchableOpacity>
     </View>
   );
 };
